@@ -1,6 +1,6 @@
-// import './animal.dart';
+import './animal.dart';
 
-// class Cat implements Animal {
+// class Cat extends Animal {
 //   @override
 //   String? name;
 

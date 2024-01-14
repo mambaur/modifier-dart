@@ -5,5 +5,12 @@ String getObjectName(Animal type) {
     Cat() => "This is a cat object",
     Bird() => "This is a bird object",
     Fish() => "This is a fish object",
+    Horse() => "This is a horse object",
   };
+}
+
+void main() {
+  Fish cat = Fish();
+  String objectName = getObjectName(cat);
+  print(objectName);
 }

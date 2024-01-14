@@ -8,4 +8,4 @@ final class Bird extends Animal {}
 
 final class Fish extends Animal {}
 
-final class CatFish extends Fish {}
+final class Horse extends Animal {}

@@ -6,6 +6,10 @@ final class Animal {
   }
 }
 
+void main() {
+  Animal animal = Animal();
+}
+
 final class Cat implements Animal {
   @override
   String? name;

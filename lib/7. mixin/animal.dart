@@ -12,4 +12,8 @@ mixin Human {
 
 class Life with Animal, Human {
   // Bisa mengakses method eat dan read
+  init() {
+    read();
+    eat();
+  }
 }
